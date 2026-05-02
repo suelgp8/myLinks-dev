@@ -21,7 +21,7 @@ Projeto inspirado no Linktree para centralizar links pessoais em um único lugar
 
 ## 📸 Preview
 
-![alt text](./assets/Cover.jpg)![alt text]
+![alt text](./assets/Cover.jpg)
 
 ## 🛠️ Como usar
 
