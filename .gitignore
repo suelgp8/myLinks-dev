@@ -1,0 +1,15 @@
+# sistema
+.DS_Store
+Thumbs.db
+
+# vscode
+.vscode/
+
+# logs
+*.log
+
+# temporários
+*.tmp
+
+# ambiente
+.env
