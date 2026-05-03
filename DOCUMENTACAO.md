@@ -5,12 +5,14 @@
 O **MyLinks Dev** é um projeto web simples e moderno inspirado no Linktree, desenvolvido para centralizar links pessoais em um único lugar acessível. Ele permite aos usuários compartilhar múltiplos links de redes sociais, portfólio e outros recursos de forma organizada e visualmente atraente. O projeto foi criado como um exercício de prática em desenvolvimento web, utilizando tecnologias básicas como HTML5, CSS3 e JavaScript.
 
 ### 🎯 Objetivo do Projeto
+
 - Centralizar links pessoais para facilitar o compartilhamento.
 - Oferecer uma interface responsiva e moderna.
 - Implementar alternância entre temas claro e escuro.
 - Servir como material de estudo para conceitos de web development.
 
 ### 🌐 Acesso ao Projeto
+
 O projeto está hospedado no GitHub Pages e pode ser acessado em: [https://suelgp8.github.io/myLinks-dev/](https://suelgp8.github.io/myLinks-dev/)
 
 ## 🏗️ Estrutura do Projeto
@@ -38,9 +40,11 @@ mylinks/
 ## 📁 Descrição Detalhada dos Arquivos
 
 ### 1. `index.html`
+
 Este é o arquivo principal que define a estrutura da página web.
 
 **Estrutura HTML:**
+
 - **DOCTYPE e Meta Tags:** Define o documento como HTML5, com charset UTF-8, viewport responsivo e título "My Links-Dev".
 - **Links Externos:** Importa fontes do Google Fonts (Inter) e ícones do Ionicons.
 - **Corpo da Página:**
@@ -53,13 +57,16 @@ Este é o arquivo principal que define a estrutura da página web.
 - **Scripts:** Carrega o Ionicons e o arquivo `script.js`.
 
 **Funcionalidades Implementadas:**
+
 - Links abrem em nova aba (`target="_blank"`).
 - Uso de ícones vetoriais do Ionicons para redes sociais.
 
 ### 2. `style.css`
+
 Arquivo de estilos que define a aparência visual, responsividade e animações.
 
 **Principais Características:**
+
 - **Reset CSS:** Remove margens e paddings padrão com `* { margin: 0; padding: 0; box-sizing: border-box; }`.
 - **Variáveis CSS:** Usa `:root` para definir variáveis de cor e imagens de fundo, facilitando a alternância de tema.
   - Modo escuro: Cores brancas/translúcidas sobre fundo escuro.
@@ -76,24 +83,30 @@ Arquivo de estilos que define a aparência visual, responsividade e animações.
 - **Tipografia:** Fonte Inter em todos os elementos.
 
 **Técnicas Avançadas:**
+
 - `backdrop-filter: blur(4px)` para efeito de vidro fosco.
 - Variáveis CSS para facilitar manutenção e alternância de tema.
 
 ### 3. `script.js`
+
 Arquivo JavaScript responsável pela lógica de alternância de tema.
 
 **Função Principal: `toggleMode()`**
+
 - Alterna a classe `"light"` no elemento `<html>`.
 - Muda dinamicamente a imagem do avatar entre `avatar.png` (escuro) e `avatar-light.png` (claro).
 - Usa `document.documentElement.classList.toggle("light")` para alternar o tema global.
 - Seleciona a imagem com `document.querySelector("#profile img")` e altera o atributo `src`.
 
 **Comentários no Código:**
+
 - Inclui lógica comentada para toggle manual (não utilizada).
 - Código limpo e comentado para fins educacionais.
 
 ### 4. Pasta `assets/`
+
 Contém todos os recursos visuais necessários:
+
 - **Avatares:** Duas versões da foto de perfil para cada tema.
 - **Fundos:** Quatro imagens de fundo (mobile/desktop x claro/escuro).
 - **Ícones:** SVG para o botão de alternância (lua e sol).
@@ -102,16 +115,20 @@ Contém todos os recursos visuais necessários:
 ## 🚀 Como Executar o Projeto
 
 ### Pré-requisitos
+
 - Navegador web moderno (Chrome, Firefox, Edge, etc.).
 - Conexão com internet (para carregar fontes e ícones externos).
 
 ### Passos para Execução
+
 1. **Clone o Repositório:**
+
    ```bash
    git clone https://github.com/suelgp8/myLinks-dev.git
    ```
 
 2. **Navegue até a Pasta:**
+
    ```bash
    cd myLinks-dev
    ```
@@ -119,10 +136,11 @@ Contém todos os recursos visuais necessários:
 3. **Abra no Navegador:**
    - Abra o arquivo `index.html` diretamente no navegador.
    - Ou use um servidor local (opcional, mas recomendado para desenvolvimento):
+
      ```bash
      # Usando Python
      python -m http.server 8000
-     
+
      # Ou Node.js com http-server
      npx http-server
      ```
@@ -138,7 +156,7 @@ Contém todos os recursos visuais necessários:
 ## 🛠️ Tecnologias e Conceitos Utilizados
 
 - **HTML5:** Estrutura semântica, meta tags, links externos.
-- **CSS3:** 
+- **CSS3:**
   - Variáveis CSS para temas.
   - Flexbox para layout.
   - Media queries para responsividade.
@@ -154,7 +172,7 @@ Para adaptar este projeto aos seus estudos ou uso pessoal:
 
 1. **Alterar Links:** Edite a lista `<ul>` em `index.html` com seus próprios links.
 2. **Mudar Perfil:** Substitua as imagens em `assets/` e atualize o texto em `#profile p`.
-3. **Adicionar Funcionalidades:** 
+3. **Adicionar Funcionalidades:**
    - Contador de cliques nos links.
    - Animações de entrada.
    - Formulário de contato.
@@ -175,6 +193,7 @@ Este projeto demonstra conceitos fundamentais de desenvolvimento web:
 ## 👨‍💻 Autor
 
 **France Welber** (suelgp8)
+
 - GitHub: [https://github.com/suelgp8](https://github.com/suelgp8)
 - LinkedIn: [https://www.linkedin.com/in/suelgp8](https://www.linkedin.com/in/suelgp8)
 - Instagram: [https://www.instagram.com/suelgp8](https://www.instagram.com/suelgp8)
